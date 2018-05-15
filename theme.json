@@ -1,0 +1,219 @@
+{
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#c8c8c8"
+        },
+        "minor": {
+          "color": "#c8c8c8"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#c8c8c8"
+        },
+        "major": {
+          "color": "#c8c8c8"
+        },
+        "minor": {
+          "color": "#c8c8c8"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "dataColors": {
+    "primaryColor": "#8daacb",
+    "othersColor": "#50a0f0",
+    "errorColor": "#b22424",
+    "nullColor": "#CCCCCC"
+  },
+  "palettes": {
+    "data": [
+      {
+        "scale": [
+          "#8daacb",
+          "#fc7362",
+          "#bbd854",
+          "#ffd92f",
+          "#66c296",
+          "#e5b694",
+          "#e78ad2",
+          "#b3b3b3",
+          "#a6d8e3",
+          "#abe9bc",
+          "#1b7d9c",
+          "#ffbfc9",
+          "#4da741",
+          "#c4b2d6",
+          "#b22424",
+          "#00acac",
+          "#be6c2c",
+          "#695496",
+          "#f0a050",
+          "#50a0f0"
+        ],
+        "name": "Classic QlikView",
+        "translation": "Classic QlikView",
+        "propertyValue": "ce3jx",
+        "type": "row",
+        "_id": "5aabffd9be1a68155e395fa6"
+      }
+    ],
+    "ui": [
+      {
+        "colors": [
+          "#8daacb",
+          "#fc7362",
+          "#bbd854",
+          "#ffd92f",
+          "#66c296",
+          "#e5b694",
+          "#e78ad2",
+          "#b3b3b3",
+          "#a6d8e3",
+          "#abe9bc",
+          "#1b7d9c",
+          "#ffbfc9",
+          "#4da741",
+          "#c4b2d6",
+          "#b22424",
+          "#00acac",
+          "#be6c2c",
+          "#695496",
+          "#f0a050",
+          "#50a0f0"
+        ],
+        "name": "Classic QlikView",
+        "_id": "5aabff39be1a68155e395fa5"
+      }
+    ]
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "scales": [
+    {
+      "scale": [
+        "#b22424",
+        "#fc7362",
+        "#f0a050",
+        "#ffd92f",
+        "#bbd854",
+        "#4da741"
+      ],
+      "name": "Red Amber Green Class",
+      "translation": "Red Amber Green Class",
+      "type": "class",
+      "propertyValue": "tnc4l8",
+      "_id": "5aac01f9be1a68155e395fb0"
+    },
+    {
+      "scale": [
+        "#b22424",
+        "#fc7362",
+        "#f0a050",
+        "#ffd92f",
+        "#bbd854",
+        "#4da741"
+      ],
+      "name": "Red Amber Green Gradient",
+      "translation": "Red Amber Green Gradient",
+      "type": "gradient",
+      "propertyValue": "0p38si",
+      "_id": "5aac01f9be1a68155e395faf"
+    },
+    {
+      "scale": [
+        "#b22424",
+        "#ffffff",
+        "#4da741"
+      ],
+      "name": "Red Green Divergent Gradient",
+      "translation": "Red Green Divergent Gradient",
+      "type": "gradient",
+      "propertyValue": "hulk98",
+      "_id": "5aafeda4be1a68155e395fdb"
+    }
+  ],
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "12px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#888888",
+    "@SubtitleColor": "#888888",
+    "@TextColor": "#888888",
+    "@FooterColor": "#888888",
+    "@BackgroundColor": "#f8f8f8",
+    "@AxisMajorColor": "#c8c8c8",
+    "@AxisMinorColor": "#c8c8c8"
+  },
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor"
+}
